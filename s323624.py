@@ -11,7 +11,7 @@ def f1(x: np.ndarray) -> np.ndarray:
     return np.sin(x[0])
 
 def f2(x: np.ndarray) -> np.ndarray:
-        return np.multiply(np.add(np.multiply(np.add(x[0], np.add(x[1], x[1])), np.cos(np.sqrt(np.abs(np.add(x[0], x[2]))))), np.add(np.multiply(np.add(x[2], x[1]), np.divide(np.sin(x[0]), x[0])), np.multiply(np.add(np.sin(x[0]), x[0]), 2))), 700000)
+    return np.multiply(np.add(np.multiply(np.add(x[0], np.add(x[1], x[1])), np.cos(np.sqrt(np.abs(np.add(x[0], x[2]))))), np.add(np.multiply(np.add(x[2], x[1]), np.divide(np.sin(x[0]), np.add(x[0],1e-20))), np.multiply(np.add(np.sin(x[0]), x[0]), 2))), 700000)
 
 def f3(x: np.ndarray) -> np.ndarray: 
     return np.add(np.add(np.subtract(4, np.multiply(x[2], np.divide(7, 2))), np.multiply(x[0], np.add(x[0], x[0]))), np.multiply(np.multiply(x[1], x[1]), np.subtract(0, x[1])))
