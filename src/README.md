@@ -1,4 +1,4 @@
-# MY WONDERFUL SYMREG PROGRAM
+# GP Symbolic Regression 
 
 The algorithm ia a gp  generational with elitism, the representation of the the formulas are trees
 The parent selection is random, the plan was to go with fitness proportional but even leveraging numpy is too 
