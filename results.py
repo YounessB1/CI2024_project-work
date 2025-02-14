@@ -1,11 +1,4 @@
-# Copyright © 2024 Giovanni Squillero <giovanni.squillero@polito.it>
-# https://github.com/squillero/computational-intelligence
-# Free under certain conditions — see the license for details.
-
 import numpy as np
-
-# All numpy's mathematical functions can be used in formulas
-# see: https://numpy.org/doc/stable/reference/routines.math.html
 
 def f1(x: np.ndarray) -> np.ndarray: 
     return np.sin(x[0])
